@@ -1,0 +1,9 @@
+export { default as Navbar } from './Navbar';
+export { default as Hero } from './Hero';
+export { default as CTA } from './CTA'
+export { default as Card } from './Card'
+export { default as Socials } from './Socials';
+export { default as Slider } from './Slider';
+export { default as SliderData } from './SliderData';
+export { default as ContactForm } from './ContactForm';
+export { default as ContactSection } from './ContactSection';
