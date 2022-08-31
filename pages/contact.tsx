@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import { ContactSection, HeroTwo } from '../components'
+import { ContactForm, HeroTwo } from '../components'
 
 const Contact: NextPage = () => {
     return(
@@ -14,7 +14,7 @@ const Contact: NextPage = () => {
 
             <HeroTwo />
 
-            <ContactSection />
+            <ContactForm />
             
         </div>
     )

@@ -17,11 +17,11 @@ const Navbar = () => {
   useEffect(() => {
     const changeColor = () => {
       if (window.scrollY >= 90) {
-        setColor('#0c0c0c')
-        setTextColor('#f1f1f1')
+        setColor('black')
+        setTextColor('white')
       } else {
         setColor('transparent')
-        setTextColor('#f1f1f1')
+        setTextColor('white')
       }
     }
     window.addEventListener('scroll', changeColor)
@@ -38,7 +38,7 @@ const Navbar = () => {
             PT BSL
           </h1>
         </Link>
-        <ul style={{ color: `${textColor}` }} className='hidden sm:flex'>
+        <ul style={{ color: `${textColor}` }} className='hidden sm:flex font-medium'>
           <li className='p-4'>
             <Link href='/'> Beranda </Link>
           </li>

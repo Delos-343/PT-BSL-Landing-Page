@@ -2,8 +2,10 @@ import React from 'react'
 
 const ContactForm = () => {
   return (
-    <div className='max-w-[1240px] m-auto p-4 h-screen'>
-      <h1 className='text-2xl font-bold text-center px-4 py-14'> Let&apos;s Collaborate </h1>
+    <div className='max-w-[1240px] m-auto p-4 h-screen' id="contact-form">
+      <h1 className='text-2xl font-bold text-center px-4 py-14'>
+        Mari Berkolaborasi
+      </h1>
       <form className='max-w-[600px] m-auto'>
           <div className='grid grid-cols-2 gap-2'>
               <input className='border shadow-lg p-3' type="text" placeholder='Name' />

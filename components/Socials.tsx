@@ -12,10 +12,10 @@ const Socials = () => {
   return (
     <div className='max-w-[1240px] mx-auto text-center py-24'>
         <p className='text-2xl font-bold'>
-          Follow us on Instagram
+          Follow Akun Kami di Instagram
         </p>
-        <p className='py-8'> @ PT BSL </p>
-        <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2 p-4'>
+        <p className='py-8 font-medium'> <a href="https://instagram.com/pt.bslcargo/" target="_blank" rel="noreferrer"> @ pt.bslcargo </a> </p>
+        <div className='grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-2 p-4'>
             <SocialsImg socialImg={IgImg1} />
             <SocialsImg socialImg={IgImg2} />
             <SocialsImg socialImg={IgImg3} />

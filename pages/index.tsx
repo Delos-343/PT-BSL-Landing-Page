@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import { CTA, ContactForm, Hero, Slider, SliderData, Socials, Card, Portfolio } from '../components'
+import { CTA, ContactForm, Hero, Slider, SliderData, Card, Portfolio } from '../components'
 
 const Home: NextPage = () => {
   return (
@@ -19,11 +19,7 @@ const Home: NextPage = () => {
 
       <Portfolio />
 
-      <Slider slides={SliderData} />
-
       <ContactForm />
-
-      <Socials />
 
     </div>
   )

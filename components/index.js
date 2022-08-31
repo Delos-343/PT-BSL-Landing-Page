@@ -8,4 +8,3 @@ export { default as Slider } from './Slider';
 export { default as SliderData } from './SliderData';
 export { default as ContactForm } from './ContactForm';
 export { default as HeroTwo } from './HeroTwo';
-export { default as ContactSection } from './ContactSection';
